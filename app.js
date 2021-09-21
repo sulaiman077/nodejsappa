@@ -8,7 +8,7 @@ const options = {
   method: 'GET'
 };
 var app = express();
-cron.schedule('* * * * *', function () {
+cron.schedule('*/5 * * * *', function () {
   validateCG();
 });
 app.listen(port);
