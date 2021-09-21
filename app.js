@@ -3,7 +3,7 @@ const express = require('express');
 const port = process.env.PORT;
 
 var app = express();
-cron.schedule('* * * * *', function() {
+cron.schedule('*/5 * * * *', function() {
     console.log('running a task every minute');
   });
 app.listen(port);
