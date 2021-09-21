@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/sulaiman077/nodejsappa/issues"
   },
-  "homepage": "https://github.com/sulaiman077/nodejsappa#readme"
+  "homepage": "https://github.com/sulaiman077/nodejsappa#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-cron": "^3.0.0"
+  }
 }
