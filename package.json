@@ -22,6 +22,7 @@
   "homepage": "https://github.com/sulaiman077/nodejsappa#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "https": "^1.0.0",
     "node-cron": "^3.0.0"
   }
 }
