@@ -4,6 +4,6 @@ const port = process.env.PORT;
 
 var app = express();
 cron.schedule('*/5 * * * *', function() {
-    console.log('running a task every minute');
+    console.log('running a task every 5 mins');
   });
 app.listen(port);
