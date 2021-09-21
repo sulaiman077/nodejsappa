@@ -1,0 +1,22 @@
+{
+  "name": "sampleappgit",
+  "version": "0.0.1",
+  "description": "Test App for GIT",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sulaiman077/nodejsappa.git"
+  },
+  "keywords": [
+    "apptest"
+  ],
+  "author": "Syed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sulaiman077/nodejsappa/issues"
+  },
+  "homepage": "https://github.com/sulaiman077/nodejsappa#readme"
+}
